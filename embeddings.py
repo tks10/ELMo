@@ -7,8 +7,8 @@ NNLM = "https://tfhub.dev/google/nnlm-en-dim128/1"
 
 def execute(tensor):
     with tf.Session() as sess:
-        sess.run(tf.global_variables_initializer())
-        sess.run(tf.tables_initializer())
+        # sess.run(tf.global_variables_initializer())
+        # sess.run(tf.tables_initializer())
 
         return sess.run(tensor)
 
