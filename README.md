@@ -1,5 +1,8 @@
-# ELMo on TensorFlow Hub
+# Example of embeddings using ELMo on TensorFlow Hub
 This repository is an example of ELMo (Embeddings from Language Models) by using TensorFlow Hub.
+
+The comparison_test module can calculate cosine similarity between given two sentences.
+
 
 ### Usage
 - In case of using exmaple.sh
